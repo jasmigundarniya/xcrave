@@ -1,0 +1,80 @@
+.usermain {
+  background-color: #fff;
+  padding: 1.2%;
+  display: flex;
+  justify-content: space-between;
+  /* height: 100vh; */
+}
+
+.userText {
+  color: #64748B;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.bsicon {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.bsiconmain {
+  background-color: #f1f5f9;
+  width: 45px;
+  height: 4vh;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bsicon1 {
+  width: 50%;
+  height: 10vh;
+}
+
+.lefticonmain{
+display: none;
+justify-content: center;
+align-items: center;
+
+}
+.lefticon{
+  height: 20px;
+  width: 50px;
+}
+
+
+
+.popupContainer {
+  position: relative;
+}
+
+.personIcon {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+@media (max-width:770px){
+  .lefticonmain{
+    display: block;
+  }
+}
+

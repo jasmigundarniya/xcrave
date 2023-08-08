@@ -1,0 +1,155 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.5%;
+    border-bottom: 1px solid #dbeafe;
+}
+
+.navbarmain {
+    background-color: #fff;
+}
+
+.row {
+    margin-right: 0px !important;
+}
+
+.logo {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+}
+
+.box {
+    background-color: #f1f5f9;
+    width: 50px;
+    height: 4.5vh;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect {
+    width: 50%;
+    height: 10vh;
+}
+
+.person {
+    background-color: rgba(211, 211, 211, 0.301);
+    color: rgba(160, 160, 160, 0.849);
+    width: 50px;
+    height: 4.5vh;
+    border-radius: 50%;
+}
+
+.popup {
+    position: relative;
+}
+
+.popupContent {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    margin-top: 170% !important;
+    right: -110px;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 30vh;
+}
+
+
+
+
+/* .no-modal-blur .modal-backdrop {
+    filter: none !important;
+  }
+
+  .top-right-modal {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: flex-end !important;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    transform: none !important;
+  } */
+
+  .top-right-modal {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transform: translate(0, 0) !important;
+    z-index: 1050;
+  }
+
+
+  .customPopover{
+    box-shadow: none !important;
+    border: 1px solid #000;
+    height: 35vh;
+    width: 20%;
+    right: 50%;
+    top: 0;
+  }
+  
+
+  .proImg {
+    border-radius: 5px;
+  }
+  .proText {
+    color: var(--text-color-100);
+  }
+  .proText1 {
+    color: var(--text-color-100);
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .ioIcon {
+    color: #2563EB;
+    font-size: 0.9rem;
+    margin-top: 4px;
+    margin-left: 6px;
+  }
+  .dropItem {
+    border-bottom: 1px solid var(--border-color);
+    padding: 19px 20px 14px 20px;
+  }
+  .moonIcon {
+    font-size: 1.3rem;
+    color: #64748B;
+  }
+  .moonText {
+    color: var(--text-color-200);
+  }
+  .radioText {
+    color: #64748B;
+  }
+  .dropItem1 {
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 20px 15px 20px;
+  }
+  .dropItem2 {
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 20px 19px 20px;
+  }
+  .proIcon {
+    font-size: 1.1rem;
+    color: var(--text-color-100);
+  }
+  .proDetail {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-color-100);
+    margin-left: 10px;
+    /* margin-top: -3px; */
+  }
+  .radioBtn {
+    margin-top: 5px;
+  }
+ 

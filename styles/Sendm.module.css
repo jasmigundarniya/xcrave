@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Raleway&display=swap');
+
+.Sendmess {
+    padding: 10px;
+    background-color: #2563eb;
+    border-radius: 10px;
+    max-width: 75%;
+}
+
+.Sendtxt {
+    font-size: 0.833rem;
+    font-weight: 400;
+    font-family: "poppins";
+    color: #fff;
+    margin-bottom: 0px !important;
+    margin: 5px 0px !important;
+}
